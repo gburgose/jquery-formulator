@@ -5,13 +5,10 @@
 	$.fn.formulator = function( options ) {
 
 		var settings = $.extend({
-				sample   : "sample",
-				callback : function(){}
+				callback : function(data, textStatus, jqXHR){}
 		}, options );
 
 		var constructor = function ( $form ){
-
-			console.log( $form );
 
 			var $fields = $form.find('input, select, textarea');
 			var $submit = $form.find('button[type="submit"], submit');
@@ -70,7 +67,7 @@
 					options = {
 						dataType: 'JSON',
 						success: function(data, textStatus, jqXHR) {
-							console.log(data);
+							options.callback.call(data, textStatus, jqXHR);
 						},
 						complete: function() {
 							return $submit.prop('disabled', false);
@@ -99,8 +96,6 @@
 			constructor( $(this) );
 		});
 
-	};
-
-	
+	};	
 
 }( jQuery ));

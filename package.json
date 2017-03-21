@@ -10,12 +10,14 @@
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gabriel Burgos",
   "license": "ISC",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "bootstrap-sass": "^3.3.7",
     "gulp": "^3.9.1",
+    "gulp-add-src": "^0.2.0",
+    "gulp-beautify": "^2.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.1.2",
