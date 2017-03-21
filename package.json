@@ -9,10 +9,37 @@
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "keywords": [],
+  "files": [
+    "dist/jquery.formulator.js",
+    "dist/jquery.formulator.min.js"
+    "dist/jquery.formulator.pkg.min.js"
+  ],
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "forms",
+    "validation",
+    "validate"
+  ],
   "author": "Gabriel Burgos",
-  "license": "ISC",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "dist/jquery.formulator.js",
+  "maintainers": [
+    {
+      "name": "gburgose",
+      "email": "hola@gabrielburgos.cl"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gburgose/jquery-formulator.git"
+  },
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "bootstrap-sass": "^3.3.7",
