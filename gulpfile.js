@@ -39,7 +39,6 @@ gulp.task('package', function() {
     .pipe(addsrc.prepend( jsDependecies ))
     .pipe(beautify({indent_size: 2}))
     .pipe(concat('dist/jquery.formulator.pkg.js'))
-    .pipe(gulp.dest('.'))
     // min
     .pipe(uglify({ preserveComments: false }))
     .pipe(rename({ suffix : '.min' }))
