@@ -1,6 +1,6 @@
 {
   "name": "jquery-formulator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "files": [
     "dist/jquery.formulator.js",
-    "dist/jquery.formulator.min.js"
+    "dist/jquery.formulator.min.js",
     "dist/jquery.formulator.pkg.min.js"
   ],
   "keywords": [
