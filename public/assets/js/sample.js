@@ -10871,85 +10871,7 @@ $(document).ready(function () {
 
 /* WEBPACK VAR INJECTION */(function(jQuery) {(function ($) {
 
-	$.fn.formulatorContruct = function (options) {
-
-		$form = $(this);
-		$fields = $form.find('input, select, textarea');
-		$submit = $form.find('button[type="submit"], submit');
-
-		var __formDisabled = function __formDisabled() {
-			$submit.prop('disabled', true);
-			$fields.change(function () {
-				alert("OK");
-				$submit.prop('disabled', false);
-			});
-		};
-
-		// Validate Form
-
-		var __formValidate = function __formValidate() {
-
-			if ($form.hasClass('form-validate')) {
-
-				$form.addClass('form-validate-load');
-
-				$fields.each(function (i, e) {
-					console.log(i);
-					if (!$(e).hasClass('not-required')) {
-						$(e).prop('required', true);
-					}
-				});
-
-				$container = $form.find('.form-errors');
-
-				$form.validate({
-					'errorContainer': $container,
-					'errorLabelContainer': $('ul', $container),
-					'wrapper': 'li',
-					'invalidHandler': function invalidHandler(form, validator) {
-						var errors;
-						return errors = validator.numberOfInvalids();
-					},
-					'submitHandler': function submitHandler(form) {
-						return true;
-					}
-				});
-			}
-		};
-
-		// Ajax Form
-
-		var __formAjax = function __formAjax() {
-
-			if ($form.hasClass('form-ajax')) {
-
-				$form.addClass('form-ajax-load');
-
-				$submit = $form.find('[type="submit"]');
-				$submit.prop('disabled', true);
-
-				options = {
-					dataType: 'JSON',
-					success: function success(data, textStatus, jqXHR) {
-						console.log(data);
-					},
-					complete: function complete() {
-						return $submit.prop('disabled', false);
-					}
-				};
-
-				return $form.ajaxForm(options);
-			}
-		};
-
-		var __formReload = function __formReload() {};
-
-		// Init
-		__formDisabled();
-		__formValidate();
-		__formAjax();
-		__formReload();
-	};
+	"use strict";
 
 	$.fn.formulator = function (options) {
 
@@ -10958,9 +10880,87 @@ $(document).ready(function () {
 			callback: function callback() {}
 		}, options);
 
+		var constructor = function constructor($form) {
+
+			console.log($form);
+
+			var $fields = $form.find('input, select, textarea');
+			var $submit = $form.find('button[type="submit"], submit');
+
+			var __formDisabled = function __formDisabled() {
+				$submit.prop('disabled', true);
+				$fields.change(function () {
+					$submit.prop('disabled', false);
+				});
+			};
+
+			// Validate Form
+
+			var __formValidate = function __formValidate() {
+
+				if ($form.hasClass('form-validate')) {
+
+					$form.addClass('form-validate-load');
+
+					$fields.each(function (i, e) {
+						if (!$(e).hasClass('not-required')) {
+							$(e).prop('required', true);
+						}
+					});
+
+					var $container = $form.find('.form-errors');
+
+					$form.validate({
+						'errorContainer': $container,
+						'errorLabelContainer': $('ul', $container),
+						'wrapper': 'li',
+						'invalidHandler': function invalidHandler(form, validator) {
+							var errors;
+							return errors = validator.numberOfInvalids();
+						},
+						'submitHandler': function submitHandler(form) {
+							return true;
+						}
+					});
+				}
+			};
+
+			// Ajax Form
+
+			var __formAjax = function __formAjax() {
+
+				if ($form.hasClass('form-ajax')) {
+
+					$form.addClass('form-ajax-load');
+
+					$submit = $form.find('[type="submit"]');
+					$submit.prop('disabled', true);
+
+					options = {
+						dataType: 'JSON',
+						success: function success(data, textStatus, jqXHR) {
+							console.log(data);
+						},
+						complete: function complete() {
+							return $submit.prop('disabled', false);
+						}
+					};
+
+					return $form.ajaxForm(options);
+				}
+			};
+
+			var __formReload = function __formReload() {};
+
+			// Init
+			__formDisabled();
+			__formValidate();
+			__formAjax();
+			__formReload();
+		};
+
 		return this.each(function () {
-			console.log($(this));
-			$(this).formulatorContruct(settings);
+			constructor($(this));
 		});
 	};
 })(jQuery);
