@@ -1,0 +1,32 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,900);
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//Sweetaler
+@import "node_modules/sweetalert/dist/sweetalert";
+
+#formulator{
+
+	text-align: center;
+
+	.formulator-container{
+
+		display: inline-block;
+		width:  100%;
+		max-width: 650px;
+		text-align: left;
+
+		h1{
+			text-align: left;
+			margin-bottom: 30px;
+		}
+
+		form{
+			
+		}
+
+	}
+
+}
