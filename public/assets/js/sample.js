@@ -10871,27 +10871,34 @@ $(document).ready(function () {
 
 /* WEBPACK VAR INJECTION */(function(jQuery) {(function ($) {
 
-	$.fn.formulator = function (options) {
-
-		var settings = $.extend({
-			sample: "sample"
-		}, options);
+	$.fn.formulatorContruct = function (options) {
 
 		$form = $(this);
+		$fields = $form.find('input, select, textarea');
+		$submit = $form.find('button[type="submit"], submit');
 
-		// Ready
-		$form.addClass('formulator-load');
-
-		function disabledButton() {
-			$form.find('button[type="submit"], submit').prop('disabled', true);
-			$form.find('input, textarea, select').change(function () {
-				$form.find('button[type="submit"], submit').prop('disabled', false);
+		var __formDisabled = function __formDisabled() {
+			$submit.prop('disabled', true);
+			$fields.change(function () {
+				alert("OK");
+				$submit.prop('disabled', false);
 			});
-		}
+		};
 
-		function validateForm() {
+		// Validate Form
+
+		var __formValidate = function __formValidate() {
 
 			if ($form.hasClass('form-validate')) {
+
+				$form.addClass('form-validate-load');
+
+				$fields.each(function (i, e) {
+					console.log(i);
+					if (!$(e).hasClass('not-required')) {
+						$(e).prop('required', true);
+					}
+				});
 
 				$container = $form.find('.form-errors');
 
@@ -10904,17 +10911,57 @@ $(document).ready(function () {
 						return errors = validator.numberOfInvalids();
 					},
 					'submitHandler': function submitHandler(form) {
-						console.log('send form');
-						ajax($form);
 						return true;
 					}
 				});
 			}
-		}
+		};
+
+		// Ajax Form
+
+		var __formAjax = function __formAjax() {
+
+			if ($form.hasClass('form-ajax')) {
+
+				$form.addClass('form-ajax-load');
+
+				$submit = $form.find('[type="submit"]');
+				$submit.prop('disabled', true);
+
+				options = {
+					dataType: 'JSON',
+					success: function success(data, textStatus, jqXHR) {
+						console.log(data);
+					},
+					complete: function complete() {
+						return $submit.prop('disabled', false);
+					}
+				};
+
+				return $form.ajaxForm(options);
+			}
+		};
+
+		var __formReload = function __formReload() {};
 
 		// Init
-		disabledButton();
-		validateForm();
+		__formDisabled();
+		__formValidate();
+		__formAjax();
+		__formReload();
+	};
+
+	$.fn.formulator = function (options) {
+
+		var settings = $.extend({
+			sample: "sample",
+			callback: function callback() {}
+		}, options);
+
+		return this.each(function () {
+			console.log($(this));
+			$(this).formulatorContruct(settings);
+		});
 	};
 })(jQuery);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))

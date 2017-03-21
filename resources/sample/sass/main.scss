@@ -7,6 +7,11 @@
 //Sweetaler
 @import "node_modules/sweetalert/dist/sweetalert";
 
+
+body{
+	padding: 50px 0;
+}
+
 #formulator{
 
 	text-align: center;
@@ -23,8 +28,12 @@
 			margin-bottom: 30px;
 		}
 
-		form{
-			
+		.example{
+
+			form{
+				margin-bottom: 30px;
+			}
+
 		}
 
 	}
