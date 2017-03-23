@@ -29,7 +29,9 @@ $(document).ready(function(){
 
 #### HTML
 
-**Validation**
+##### Validation
+
+You must add the class .form-validate
 
 ```html
 <form action="" class="form-validate">
@@ -38,7 +40,9 @@ $(document).ready(function(){
 </form>
 ```
 
-**Ajax**
+##### Ajax
+
+You must add the class .form-ajax
 
 ```html
 <form action="" class="form-ajax">
@@ -47,7 +51,10 @@ $(document).ready(function(){
 </form>
 ```
 
-**Both**
+##### Both
+
+Example with *both* classes
+
 ```html
 <form action="" class="form-ajax form-validate">
 	...
