@@ -35,13 +35,10 @@ jsDependecies = [
 
 gulp.task('package', function() {
   gulp.src(['./resources/plugin/js/main.js'])
-    // normal
     .pipe(addsrc.prepend( jsDependecies ))
-    .pipe(beautify({indent_size: 2}))
-    .pipe(concat('dist/jquery.formulator.pkg.js'))
-    // min
     .pipe(uglify({ preserveComments: false }))
     .pipe(rename({ suffix : '.min' }))
+    .pipe(concat('dist/jquery.formulator.pkg.js'))
     .pipe(gulp.dest('.'));
 });
 

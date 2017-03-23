@@ -16,7 +16,7 @@
   ],
   "keywords": [
     "jquery",
-    "jquery-plugin",
+    "plugin",
     "forms",
     "validation",
     "validate"
@@ -41,7 +41,6 @@
     "url": "git://github.com/gburgose/jquery-formulator.git"
   },
   "devDependencies": {
-    "bootstrap": "^3.3.7",
     "bootstrap-sass": "^3.3.7",
     "gulp": "^3.9.1",
     "gulp-add-src": "^0.2.0",
