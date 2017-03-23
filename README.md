@@ -9,7 +9,7 @@
 
 #### NPM
 
-```
+```bash
 npm install jquery-formulator --save-dev
 ```
 
@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 #### HTML
 
-** Validation **
+**Validation**
 
 ```html
 <form action="" class="form-validate">
@@ -38,7 +38,7 @@ $(document).ready(function(){
 </form>
 ```
 
-** Ajax **
+**Ajax**
 
 ```html
 <form action="" class="form-ajax">
@@ -47,7 +47,7 @@ $(document).ready(function(){
 </form>
 ```
 
-** Both **
+**Both**
 ```html
 <form action="" class="form-ajax form-validate">
 	...
