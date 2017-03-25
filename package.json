@@ -2,7 +2,7 @@
   "name": "jquery-formulator",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/jquery.formulator.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
     "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
@@ -29,7 +29,6 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "main": "dist/jquery.formulator.js",
   "maintainers": [
     {
       "name": "gburgose",
@@ -46,7 +45,10 @@
     "gulp-add-src": "^0.2.0",
     "gulp-beautify": "^2.0.1",
     "gulp-concat": "^2.6.1",
+    "gulp-remove-empty-lines": "0.0.8",
+    "gulp-remove-lines": "^0.1.0",
     "gulp-rename": "^1.2.2",
+    "gulp-strip-comments": "^2.4.5",
     "gulp-uglify": "^2.1.2",
     "jquery": "^3.2.1",
     "jquery-form": "^4.2.0",

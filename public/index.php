@@ -37,6 +37,7 @@
 									<option>5</option>
 								</select>
 							</div>
+							<div class="form-errors"></div>
 							<button type="submit" class="btn btn-primary">Submit</button>
 						</form>
 						<!-- // validation --> 
@@ -93,10 +94,50 @@
 									<option>5</option>
 								</select>
 							</div>
+							<div class="form-errors"></div>
 							<button type="submit" class="btn btn-primary">Submit</button>
 						</form>
 					<!-- // both -->
 					</div>
+
+					<div class="example">
+						<!-- both --> 
+						<h3>Filter Reload</h3>
+						<form id="form_3" class="form-reload">
+							<div class="form-group">
+								<label for="exampleSelect1">Countries</label>
+								<select class="form-control" name="filter_countries" id="filter_countries">
+									<option value="">Seleccione</option>
+									<option value="chile">Chile</option>
+									<option value="argentina">Argentina</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="exampleSelect1">Cities</label>
+								<select class="form-control" name="filter_cities" id="filter_cities">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="exampleSelect1">Code</label>
+								<select class="form-control" name="filter_code" id="filter_code">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</form>
+					<!-- // both -->
+					</div>
+
+
+
 
 				</div>
 			</div>

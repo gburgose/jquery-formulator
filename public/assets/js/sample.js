@@ -10871,7 +10871,7 @@ $(document).ready(function () {
 
 /* WEBPACK VAR INJECTION */(function(jQuery) {(function ($) {
 
-	"use strict";
+	'use strict';
 
 	$.fn.formulator = function (options) {
 
@@ -10884,7 +10884,7 @@ $(document).ready(function () {
 			var $fields = $form.find('input, select, textarea');
 			var $submit = $form.find('button[type="submit"], submit');
 
-			var __formDisabled = function __formDisabled() {
+			var formDisabled = function formDisabled() {
 				$submit.prop('disabled', true);
 				$fields.change(function () {
 					$submit.prop('disabled', false);
@@ -10893,9 +10893,9 @@ $(document).ready(function () {
 
 			// Validate Form
 
-			var __formValidate = function __formValidate() {
+			var formValidate = function formValidate() {
 
-				if ($form.hasClass('form-validate')) {
+				if ($form.hasClass('form-validate') && !$form.hasClass('form-validate-load')) {
 
 					$form.addClass('form-validate-load');
 
@@ -10905,11 +10905,12 @@ $(document).ready(function () {
 						}
 					});
 
-					var $container = $form.find('.form-errors');
+					var $errors = $form.find('.form-errors');
+					$errors.html('<ul></ul>');
 
 					$form.validate({
-						'errorContainer': $container,
-						'errorLabelContainer': $('ul', $container),
+						'errorContainer': $errors,
+						'errorLabelContainer': $('ul', $errors),
 						'wrapper': 'li',
 						'invalidHandler': function invalidHandler(form, validator) {
 							var errors;
@@ -10924,9 +10925,9 @@ $(document).ready(function () {
 
 			// Ajax Form
 
-			var __formAjax = function __formAjax() {
+			var formAjax = function formAjax() {
 
-				if ($form.hasClass('form-ajax')) {
+				if ($form.hasClass('form-ajax') && !$form.hasClass('form-ajax-load')) {
 
 					$form.addClass('form-ajax-load');
 
@@ -10947,13 +10948,59 @@ $(document).ready(function () {
 				}
 			};
 
-			var __formReload = function __formReload() {};
+			var formReload = function formReload() {
+
+				if ($form.hasClass('form-reload') && !$form.hasClass('form-reload-load')) {
+
+					$form.addClass('form-reload-load');
+
+					// On init
+
+					$fields.each(function (i, e) {
+						var _name = $(e).attr('name');
+						var _queries = _queryString();
+						$(e).val(_queries[_name]);
+					});
+
+					// On change
+
+					$fields.change(function () {
+						$form.submit();
+					});
+				}
+			};
+
+			// Get url var
+			// This function is anonymous, is executed immediately and 
+			// the return value is assigned to QueryString!
+
+			var _queryString = function _queryString() {
+
+				var query_string = {};
+				var query = window.location.search.substring(1);
+				var vars = query.split("&");
+				for (var i = 0; i < vars.length; i++) {
+					var pair = vars[i].split("=");
+					// If first entry with this name
+					if (typeof query_string[pair[0]] === "undefined") {
+						query_string[pair[0]] = decodeURIComponent(pair[1]);
+						// If second entry with this name
+					} else if (typeof query_string[pair[0]] === "string") {
+						var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];
+						query_string[pair[0]] = arr;
+						// If third or later entry with this name
+					} else {
+						query_string[pair[0]].push(decodeURIComponent(pair[1]));
+					}
+				}
+				return query_string;
+			};
 
 			// Init
-			__formDisabled();
-			__formValidate();
-			__formAjax();
-			__formReload();
+			formDisabled();
+			formValidate();
+			formAjax();
+			formReload();
 		};
 
 		return this.each(function () {
