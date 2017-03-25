@@ -9,5 +9,11 @@ var swal = require('sweetalert');
 require("../../plugin/js/main.js");
 
 $(document).ready(function(){
-	$('form').formulator();
+	
+	$('form').formulator({
+		onAjax : function( data ){
+			console.log( data );
+		}
+	});
+
 });

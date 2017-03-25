@@ -2,7 +2,6 @@
   'use strict'
   $.fn.formulator = function(options) {
     var settings = $.extend({
-      callback: function(data, textStatus, jqXHR) {}
     }, options);
     var constructor = function($form) {
       var $fields = $form.find('input, select, textarea');
@@ -45,7 +44,11 @@
           options = {
             dataType: 'JSON',
             success: function(data, textStatus, jqXHR) {
-              options.callback.call(data, textStatus, jqXHR);
+              swal({
+                title: data.title,
+                text: data.text,
+                type: data.type
+              });
             },
             complete: function() {
               return $submit.prop('disabled', false);
@@ -57,10 +60,12 @@
       var formReload = function() {
         if ($form.hasClass('form-reload') && !$form.hasClass('form-reload-load')) {
           $form.addClass('form-reload-load');
+          $fields.prop('disabled', true);
           $fields.each(function(i, e) {
             var _name = $(e).attr('name');
             var _queries = _queryString();
             $(e).val(_queries[_name]);
+            $(e).prop('disabled', false);
           });
           $fields.change(function() {
             $form.submit();

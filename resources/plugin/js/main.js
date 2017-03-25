@@ -5,7 +5,7 @@
 	$.fn.formulator = function( options ) {
 
 		var settings = $.extend({
-				callback : function(data, textStatus, jqXHR){}
+			//callback : function(data, textStatus, jqXHR){}
 		}, options );
 
 		var constructor = function ( $form ){
@@ -68,7 +68,19 @@
 					options = {
 						dataType: 'JSON',
 						success: function(data, textStatus, jqXHR) {
-							options.callback.call(data, textStatus, jqXHR);
+
+							swal({
+								title : data.title,
+								text  : data.text,
+								type  : data.type
+							});
+
+							/*
+							if (typeof settings.callback == 'function') { 
+					      settings.callback.call(data);
+					    }
+					    */
+
 						},
 						complete: function() {
 							return $submit.prop('disabled', false);
@@ -89,10 +101,13 @@
 
 					// On init
 
+					$fields.prop('disabled', true);
+
 					$fields.each(function(i,e){
 						var _name = $(e).attr('name');
 						var _queries = _queryString();
 						$(e).val( _queries[_name] );
+						$(e).prop('disabled', false);
 					});
 
 

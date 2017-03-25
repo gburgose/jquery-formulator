@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>jQuery Formulator</title>
 	<link type="text/css" rel="stylesheet" href="./assets/css/sample.css">
+	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 	<script src="./assets/js/sample.js"></script>
 </head>
 <body>
@@ -13,6 +14,47 @@
 				<div class="formulator-container">
 				
 					<h1>jQuery Formulator</h1>
+
+					<div class="example">
+						<!-- both --> 
+						<h3>Filter Reload</h3>
+						<form id="form_3" class="form-reload">
+							<div class="form-group">
+								<label for="exampleSelect1">Countries</label>
+								<select class="form-control" name="filter_countries" id="filter_countries">
+									<option value="">Seleccione</option>
+									<option value="chile">Chile</option>
+									<option value="argentina">Argentina</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="exampleSelect1">Cities</label>
+								<select class="form-control" name="filter_cities" id="filter_cities">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="exampleSelect1">Code</label>
+								<select class="form-control" name="filter_code" id="filter_code">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+						</form>
+					<!-- // both -->
+
+<!-- pre -->
+<pre class="prettyprint lang-css"><form id="form_3" class="form-reload"></form></pre>
+<!-- //pre -->	
+
+					</div>
 
 					<div class="example">
 						<!-- validation --> 
@@ -46,7 +88,7 @@
 					<div class="example">
 					<!-- ajax --> 
 						<h3>Only Ajax</h3>
-						<form id="form_2" class="form-ajax">
+						<form id="form_2" class="form-ajax" action="./callback.json">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Email address</label>
 								<input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -99,45 +141,6 @@
 						</form>
 					<!-- // both -->
 					</div>
-
-					<div class="example">
-						<!-- both --> 
-						<h3>Filter Reload</h3>
-						<form id="form_3" class="form-reload">
-							<div class="form-group">
-								<label for="exampleSelect1">Countries</label>
-								<select class="form-control" name="filter_countries" id="filter_countries">
-									<option value="">Seleccione</option>
-									<option value="chile">Chile</option>
-									<option value="argentina">Argentina</option>
-								</select>
-							</div>
-							<div class="form-group">
-								<label for="exampleSelect1">Cities</label>
-								<select class="form-control" name="filter_cities" id="filter_cities">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-							<div class="form-group">
-								<label for="exampleSelect1">Code</label>
-								<select class="form-control" name="filter_code" id="filter_code">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-						</form>
-					<!-- // both -->
-					</div>
-
-
-
 
 				</div>
 			</div>
