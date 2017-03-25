@@ -1,4 +1,4 @@
-# jQuery Formulator v1.0.1
+# jQuery Formulator v1.0.2
 
 ## Installation
 
