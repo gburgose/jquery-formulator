@@ -6,6 +6,8 @@
 
 * [jQuery Form](https://www.npmjs.com/package/jquery-form)
 * [jQuery Validation](https://www.npmjs.com/package/jquery-validation)
+* [jQuery Rut](https://www.npmjs.com/package/jquery.rut)
+* [Sweetalert](https://www.npmjs.com/package/sweetalert)
 
 #### NPM
 

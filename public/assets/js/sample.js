@@ -10943,10 +10943,16 @@ $(document).ready(function () {
 						dataType: 'JSON',
 						success: function success(data, textStatus, jqXHR) {
 
+							var _title = 'Falta título';
+							var _text = 'Falta texto';
+							var _type = 'Falta tipo';
+							var _button = 'Falta botón';
+
 							swal({
 								title: data.title,
 								text: data.text,
-								type: data.type
+								type: data.type,
+								confirmButtonText: data.button
 							});
 
 							/*

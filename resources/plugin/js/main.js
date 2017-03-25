@@ -69,10 +69,16 @@
 						dataType: 'JSON',
 						success: function(data, textStatus, jqXHR) {
 
+							var _title   = 'Falta título';
+							var _text    = 'Falta texto';
+							var _type    = 'Falta tipo';
+							var _button  = 'Falta botón';
+
 							swal({
-								title : data.title,
-								text  : data.text,
-								type  : data.type
+								title             : data.title,
+								text              : data.text,
+								type              : data.type,
+								confirmButtonText : data.button
 							});
 
 							/*

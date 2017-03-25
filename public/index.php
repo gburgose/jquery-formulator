@@ -116,7 +116,7 @@
 					<div class="example">
 						<!-- both --> 
 						<h3>Validation & Ajax</h3>
-						<form id="form_3" class="form-validate form-ajax">
+						<form id="form_3" class="form-validate form-ajax" action="./callback.json">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Email address</label>
 								<input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
