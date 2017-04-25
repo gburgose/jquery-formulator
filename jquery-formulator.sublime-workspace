@@ -1,0 +1,1589 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"impo",
+				"important"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"opa",
+				"opacity"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"opaci",
+				"opacity\topacity()"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"borde",
+				"border-right"
+			],
+			[
+				"list-",
+				"list-style"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"co",
+				"color_gold"
+			],
+			[
+				"with",
+				"width"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"color",
+				"color_gold"
+			],
+			[
+				"wit",
+				"white"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"blc",
+				"block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"transition-",
+				"transition-duration"
+			],
+			[
+				"fis",
+				"first-child"
+			],
+			[
+				"sli",
+				"slick-list"
+			],
+			[
+				"slid",
+				"slider-background"
+			],
+			[
+				"z",
+				"z-Index"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"let",
+				"left"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"un",
+				"undefined"
+			],
+			[
+				"css",
+				"cssProduction"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"col",
+				"col-md-2"
+			],
+			[
+				"sec",
+				"secondary_color"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"cell",
+				"cellpadding\tAttr"
+			],
+			[
+				"span",
+				"span-circle"
+			],
+			[
+				"text-",
+				"text-content-age"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"img",
+				"images"
+			],
+			[
+				"popu",
+				"popup-content"
+			],
+			[
+				"gre",
+				"green"
+			],
+			[
+				"over",
+				"overview"
+			],
+			[
+				"fn",
+				"font-weight"
+			],
+			[
+				"s",
+				"span"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"rd",
+				"red"
+			],
+			[
+				"active",
+				"active-search"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"m",
+				"mobile"
+			],
+			[
+				"slide",
+				"slideUp"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"tab",
+				"tab-active"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"box",
+				"box-left"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"data",
+				"data-youtube"
+			],
+			[
+				"section",
+				"section-box"
+			],
+			[
+				"cn",
+				"content"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"data-equi",
+				"data-equalize"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"na",
+				"navigation"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"tras",
+				"transform"
+			],
+			[
+				"ta",
+				"tablet"
+			],
+			[
+				"section-",
+				"section-content"
+			],
+			[
+				"item",
+				"items"
+			],
+			[
+				"parse",
+				"● parseInt(str)"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"mo",
+				"mobile"
+			],
+			[
+				"fom",
+				"form"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"blue",
+				"blue_dark"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bcka",
+				"background-repeat"
+			],
+			[
+				"green",
+				"green_dark"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"get",
+				"get-image"
+			],
+			[
+				"add",
+				"addClass"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 770,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1692,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MEATDEV/Developer/jquery-shares/package.json",
+			"settings":
+			{
+				"buffer_size": 1603,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MEATDEV/Developer/jquery-shares/webpack.mix.js",
+			"settings":
+			{
+				"buffer_size": 621,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 56,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/index.php",
+			"settings":
+			{
+				"buffer_size": 4054,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MEATDEV/Developer/jquery-shares/public/index.php",
+			"settings":
+			{
+				"buffer_size": 755,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MEATDEV/Developer/jquery-shares/resources/sample/sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 172,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MEATDEV/Developer/jquery-shares/public/assets/css/sample.css",
+			"settings":
+			{
+				"buffer_size": 685778,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/sample/sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MEATDEV/Developer/jquery-shares/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1267,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MEATDEV/Developer/jquery-shares/bower.json",
+			"settings":
+			{
+				"buffer_size": 689,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MEATDEV/Developer/jquery-shares/resources/sample/js/main.js",
+			"settings":
+			{
+				"buffer_size": 145,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/MEATDEV/Developer/jquery-shares/resources/plugin/js/main.js",
+			"settings":
+			{
+				"buffer_size": 1312,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/sample/js/main.js",
+			"settings":
+			{
+				"buffer_size": 284,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"status",
+				"Git: Status"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/MEATDEV/Developer/jquery-formulator/resources",
+		"/Users/MEATDEV/Developer/jquery-formulator/resources/sample",
+		"/Users/MEATDEV/Developer/jquery-formulator/resources/sample/js",
+		"/Users/MEATDEV/Developer/jquery-formulator/resources/sample/sass",
+		"/Users/MEATDEV/Developer/jquery-shares",
+		"/Users/MEATDEV/Developer/jquery-shares/resources/plugin",
+		"/Users/MEATDEV/Developer/jquery-shares/resources/plugin/js",
+		"/Users/MEATDEV/Developer/jquery-shares/resources/plugin/sass",
+		"/Users/MEATDEV/Developer/jquery-shares/resources/sample",
+		"/Users/MEATDEV/Developer/jquery-shares/resources/sample/js",
+		"/Users/MEATDEV/Developer/jquery-shares/resources/sample/sass"
+	],
+	"file_history":
+	[
+		"/Users/MEATDEV/Developer/jquery-formulator/resources/sample/js/main.js",
+		"/Users/MEATDEV/Developer/jquery-formulator/gulpfile.js",
+		"/Users/MEATDEV/Developer/jquery-shares/dist/jquery.shares.js",
+		"/Users/MEATDEV/Developer/jquery-shares/public/assets/css/sample.css",
+		"/Users/MEATDEV/Developer/jquery-shares/resources/plugin/sass/.gitkeep",
+		"/Users/MEATDEV/Developer/jquery-shares/resources/sample/js/main.js",
+		"/Users/MEATDEV/Developer/jquery-shares/resources/sample/sass/main.scss",
+		"/Users/MEATDEV/Developer/jquery-shares/resources/plugin/js/main.js",
+		"/Users/MEATDEV/Developer/jquery-shares/gulpfile.js",
+		"/Users/MEATDEV/Developer/jquery-shares/dist",
+		"/Users/MEATDEV/Developer/jquery-formulator/jquery-formulator.sublime-project",
+		"/Users/MEATDEV/Developer/jquery-formulator/node_modules/jquery-validation/package.json",
+		"/Users/MEATDEV/Developer/jquery-formulator/node_modules/jquery-form/package.json",
+		"/Users/MEATDEV/Developer/jquery-formulator/node_modules/jquery-form/src/jquery.form.js",
+		"/Users/MEATDEV/Developer/jquery-formulator/package.json",
+		"/Users/MEATDEV/Developer/jquery-formulator/node_modules/jquery-form/bower.json",
+		"/Users/MEATDEV/Developer/jquery-formulator/node_modules/jquery/package.json",
+		"/Users/MEATDEV/Developer/es/public/css/video.css",
+		"/Users/MEATDEV/Developer/es/resources/assets/jquery/flowplayer-7.0.2/flowplayer.drive-analytics.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/jquery/flowplayer-7.0.2/flowplayer.hlsjs.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/video.js",
+		"/Users/MEATDEV/Developer/es/public/js/video.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/app/video.js",
+		"/Users/MEATDEV/Developer/es/resources/views/video.blade.php",
+		"/Users/MEATDEV/Developer/es/.gitignore",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/app.js",
+		"/Users/MEATDEV/Developer/es/routes/web.php",
+		"/Users/MEATDEV/Developer/es/resources/views/index.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/views/single.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/app/media.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/_introduce.scss",
+		"/Users/MEATDEV/Developer/es/resources/views/layouts/video.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/objects/_fancybox.scss",
+		"/Users/MEATDEV/Developer/es/resources/views/layouts/default.blade.php",
+		"/Users/MEATDEV/Developer/es/webpack.mix.js",
+		"/Users/MEATDEV/Developer/es/.env",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/app/boostrap.js",
+		"/Users/MEATDEV/Developer/es/resources/views/contact.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/views/register.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/objects/_background.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/vendor.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/bootstrap.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/app/gallery.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/app.scss",
+		"/Users/MEATDEV/Developer/es/node_modules/flowplayer/dist/skin/skin.css",
+		"/Users/MEATDEV/Developer/es/public/js/app.942a23c75b3424db1370.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/app/_general.scss",
+		"/Users/MEATDEV/Developer/es/resources/views/objects/mobilemenu.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/views/articles/escort-small.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/views/articles/escort-middle.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/views/articles/escort-big.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/views/objects/search.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/objects/_search.scss",
+		"/Users/MEATDEV/Developer/es/resources/views/sections/header.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/plugins/accordion.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/app/mobile.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/articles/_escort.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/_variables.scss",
+		"/Users/MEATDEV/Developer/es/composer.json",
+		"/Users/MEATDEV/Developer/es/package.json",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/app/_header.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/objects/_mobilemenu.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/_media.scss",
+		"/Users/MEATDEV/Developer/the-singular/mockup/assets/dist/build.css",
+		"/Users/MEATDEV/Developer/ucm-site/workshop/stylus/site/barmenu.styl",
+		"/Users/MEATDEV/Developer/ucm-site/htdocs/mockup/assets/app.css",
+		"/Users/MEATDEV/Developer/the-singular/workshop/extras/navaccordion.js",
+		"/Users/MEATDEV/Developer/the-singular/mockup/brand.html",
+		"/Users/MEATDEV/Developer/es/resources/views/objects/favicon.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/objects/mobilemenu.scss",
+		"/Users/MEATDEV/Developer/es/resources/views/sections/introduce-search.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/_form.scss",
+		"/Users/MEATDEV/Developer/ucm-site/package.json",
+		"/Users/MEATDEV/Developer/the-singular/mockup/assets/dist/build.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/app/header.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/app/slider.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/objects/_buttons.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/app/form.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/app/_footer.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/articles/_news.scss",
+		"/Users/MEATDEV/Developer/es/resources/views/articles/news.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/_gallery.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/articles/_profile.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/_prices.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/articles/_media.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/app/background.js",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/plugins/jquery-form/jquery.form.js",
+		"/Users/MEATDEV/Developer/the-singular/package.json",
+		"/Users/MEATDEV/Developer/es/node_modules/jquery-form/src/jquery.form.js",
+		"/Users/MEATDEV/Developer/es/node_modules/form-validate/package.json",
+		"/Users/MEATDEV/Developer/ucm-site/htdocs/mockup/assets/app.js",
+		"/Users/MEATDEV/Developer/es/resources/views/search.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/views/articles/profile-big.blade.php",
+		"/Users/MEATDEV/Developer/es/node_modules/recaptcha/lib/recaptcha.js",
+		"/Users/MEATDEV/Developer/es/resources/views/sections/introduce-title.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/views/category.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/_services.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/plugins/fancybox/jquery.fancybox.css",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/_new.scss",
+		"/Users/MEATDEV/Developer/es/resources/views/sections/footer.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/prices.scss",
+		"/Users/MEATDEV/Developer/es/resources/views/articles/profile-small.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/objects/_line.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/profile.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/_breadcrump.scss",
+		"/Users/MEATDEV/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/MEATDEV/Developer/es/resources/views/sections/search.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/_update.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/app/equalize.js",
+		"/Users/MEATDEV/Developer/es/resources/views/articles/update.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/articles/_update.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/objects/_update.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/sections/_search.scss",
+		"/Users/MEATDEV/Developer/es/resources/assets/js/plugins/isotope/isotope.pkgd.js",
+		"/Users/MEATDEV/Developer/the-singular/mockup/assets/dist/bundle.js",
+		"/Users/MEATDEV/Developer/es/resources/views/welcome.blade.php",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/objects/search.scss",
+		"/Users/MEATDEV/Developer/es/public/css/vendor.css",
+		"/Users/MEATDEV/Developer/es/public/css/app.css",
+		"/Users/MEATDEV/Developer/es/es.sublime-project",
+		"/Users/MEATDEV/Developer/es/resources/assets/sass/app/_introduce.scss",
+		"/Users/MEATDEV/Developer/es/resources/views/mockup/index.blade.php",
+		"/Users/MEATDEV/Developer/es/public/js/app.js",
+		"/Users/MEATDEV/Developer/es/artisan",
+		"/Users/MEATDEV/Developer/the-singular/workshop/coffee/app/animation.coffee",
+		"/Users/MEATDEV/Developer/the-singular/workshop/jade/layouts/default.jade",
+		"/Users/MEATDEV/Developer/the-singular/workshop/coffee/app/map.coffee",
+		"/Users/MEATDEV/Developer/the-singular/workshop/coffee/app/browser.coffee"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/MEATDEV/Developer/the-singular/workshop/stylus",
+			"/Users/MEATDEV/Developer/the-singular/workshop/coffee/app",
+			"/Users/MEATDEV/Developer/the-singular/workshop/jade/app",
+			"/Users/MEATDEV/Developer/the-singular/workshop/stylus",
+			"/Users/MEATDEV/Developer/vichy-maquillaje-2017-front/workshop/stylus",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/workshop/scss",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/workshop/scss/project/components",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/workshop/js/app",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/workshop/scss/project",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/workshop/scss",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/workshop/scss/project",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/workshop/scss/project/components",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/workshop/scss/project",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/workshop/scss/project/components",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/workshop/scss/project",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/front/scss",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/front/scss/project",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/front/scss",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/front/scss/project",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/front/scss",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/front",
+			"/Users/MEATDEV/Developer/riot-cosplay-wp/front/scss/project",
+			"/Users/MEATDEV/Developer/ucm-site/htdocs/content/themes/ucm/resources/views",
+			"/Users/MEATDEV/Developer/ucm-site/workshop/stylus",
+			"/Users/MEATDEV/Developer/ucm-site/workshop/stylus/app",
+			"/Users/MEATDEV/Developer/ucm-site/workshop/stylus",
+			"/Users/MEATDEV/Developer/ucm-site/workshop",
+			"/Users/MEATDEV/Developer/ucm-site/workshop/stylus",
+			"/Users/MEATDEV/Developer/ucm-site",
+			"/Users/MEATDEV/Developer/ucm-site/workshop/stylus",
+			"/Users/MEATDEV/Developer/ucm-site/workshop/jade/web",
+			"/Users/MEATDEV/Developer/gasco-museo/workshop/jade",
+			"/Users/MEATDEV/Developer/gasco-museo/workshop/jade/360",
+			"/Users/MEATDEV/Developer/gasco-museo/workshop/jade/pages",
+			"/Users/MEATDEV/Developer/gasco-museo/workshop/stylus",
+			"/Users/MEATDEV/Developer/gasco-museo/workshop/jade/360",
+			"/Users/MEATDEV/Developer/gasco-museo/workshop",
+			"/Users/MEATDEV/Developer/ucm-site/front/stylus",
+			"/Users/MEATDEV/Developer/ucm-site/front/jade",
+			"/Users/MEATDEV/Developer/ucm-site/front/stylus",
+			"/Users/MEATDEV/Developer/redbull-thre3style",
+			"/Users/MEATDEV/Developer/ucm-site/front/coffee/plugins",
+			"/Users/MEATDEV/Developer/ucm-site/front/jade",
+			"/Users/MEATDEV/Developer/uss-vespertino/workshop/coffee",
+			"/Users/MEATDEV/Developer/uss-vespertino",
+			"/Users/MEATDEV/Developer/uss-vespertino/workshop/stylus",
+			"/Users/MEATDEV/Developer/uss-vespertino-front/coffee/jquery",
+			"/Users/MEATDEV/Developer/uss-facultades-front/coffee/jquery",
+			"/Users/MEATDEV/Developer/gasco-museo/workshop/coffee",
+			"/Users/MEATDEV/Developer/uss-facultades/stylus",
+			"/Users/MEATDEV/Developer/uss-vespertino/stylus",
+			"/Users/MEATDEV/Developer/salfa-west-lake/workshop/coffee",
+			"/Applications/XAMPP/xamppfiles/htdocs/salfa-west-lake/workshop/coffee",
+			"/Users/MEATDEV/Developer/picton/workshop/coffee",
+			"/Users/MEATDEV/Developer/picton/workshop/stylus",
+			"/Users/MEATDEV/Developer/picton/workshop/coffee",
+			"/Users/MEATDEV/Developer/salfa-west-lake/workshop/coffee",
+			"/Users/MEATDEV/Developer/smartrip-crowdfunding/stylus",
+			"/Users/MEATDEV/Developer/smartrip-crowdfunding/stylus/app",
+			"/Applications/XAMPP/xamppfiles/htdocs/salfa-west-lake/workshop/jade",
+			"/Applications/XAMPP/xamppfiles/htdocs/salfa-west-lake/workshop/stylus/app",
+			"/Applications/XAMPP/xamppfiles/htdocs/salfa-west-lake/workshop/stylus",
+			"/Applications/XAMPP/xamppfiles/htdocs/picton/workshop/jade/pages",
+			"/Applications/XAMPP/xamppfiles/htdocs/picton/workshop/jade/sections",
+			"/Applications/XAMPP/xamppfiles/htdocs/picton/workshop/stylus/app",
+			"/Applications/XAMPP/xamppfiles/htdocs/picton/workshop/stylus",
+			"/Applications/XAMPP/xamppfiles/htdocs/educando-juntos/wp/wp-content/themes/educando-juntos",
+			"/Applications/XAMPP/xamppfiles/htdocs/base-front/workshop/stylus",
+			"/Applications/XAMPP/xamppfiles/htdocs/smartrip/crowdfunding/stylus",
+			"/Applications/XAMPP/xamppfiles/htdocs/smartrip/crowdfunding/stylus/app",
+			"/Applications/XAMPP/xamppfiles/htdocs/smartrip/crowdfunding/stylus",
+			"/Applications/XAMPP/xamppfiles/htdocs/smartrip/crowdfunding/stylus/app",
+			"/Applications/XAMPP/xamppfiles/htdocs/derco-front/stylus",
+			"/Applications/XAMPP/xamppfiles/htdocs/lancome/stylus",
+			"/Applications/XAMPP/xamppfiles/htdocs/uss-facultades/coffee/jquery",
+			"/Applications/XAMPP/xamppfiles/htdocs/uss-facultades/stylus",
+			"/Applications/XAMPP/xamppfiles/htdocs/smartrip/crowdfunding/stylus/app",
+			"/Applications/XAMPP/xamppfiles/htdocs/derco-front/jade/app/zongshen",
+			"/Applications/XAMPP/xamppfiles/htdocs/derco-front/jade",
+			"/Applications/XAMPP/xamppfiles/htdocs/derco-front",
+			"/Applications/XAMPP/xamppfiles/htdocs/derco-front/jade/app/kymco",
+			"/Applications/XAMPP/xamppfiles/htdocs/smartrip/crowdfunding/stylus"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"__social_share",
+			"\tvar",
+			"share_text",
+			"share_url",
+			"formulator",
+			"href=\"https://www.facebook.com\"",
+			"instagram",
+			"href=\"#\"",
+			"formulator",
+			"social_share",
+			"popupWindow",
+			"formulator",
+			"version",
+			"min",
+			"'",
+			"js",
+			"./plugins",
+			"false",
+			"fancybox\" href=\"./images/scort-big.png\"",
+			"?v={{ rand(0, 100) }}",
+			"\">",
+			"50px",
+			"data-fancybox-group=\"gallery\"",
+			"test",
+			"Ampliar",
+			"href",
+			"url",
+			"width",
+			"rel=\"gallery\"",
+			"data",
+			"busqueda",
+			"css",
+			"32px",
+			"40px",
+			"col-sm-3",
+			"nava",
+			"60px",
+			"70px",
+			"header",
+			"trigger",
+			"%extend_3",
+			"20px",
+			"md",
+			"col-xs-12",
+			" col-xs-12",
+			"<div class=\"col-lg-3\">",
+			"portrait",
+			"ol-md-4",
+			"ol-md-",
+			"ol-md-6",
+			"col-lg-6",
+			"sm",
+			"min",
+			"size",
+			"min",
+			"form",
+			"validate",
+			":",
+			"app.form.",
+			"app.form",
+			"},",
+			": function($form) {",
+			"app.form",
+			"form",
+			"favicon-1",
+			"images",
+			"*.*",
+			"href=\"/",
+			"$(e).find('.image')",
+			"media",
+			"\n",
+			"0.71",
+			"background",
+			"movie",
+			"images",
+			"50px",
+			"<img src=\"./images/scort-big.png\" alt=\"\">\n\t\t\t\t\t\t\t\t</a>",
+			"<a href=\"./images/scort-big.png\" class=\"image fancybox\" rel=\"gallery\">",
+			"data-fancybox",
+			"data-fancybo",
+			"<a class=\"box\"",
+			"equalize",
+			"<a href=\"#\" class=\"image fancybox",
+			"<a class=\"box\" href=\"#\"",
+			"<a class=\"box\"",
+			"<a class=\"box\">",
+			"<a href=\"#\" class=\"image fancybox\">",
+			"<a href=\"#\" class=\"image\">",
+			"<div class=\"box-inner\">\t",
+			"</figure>",
+			"<img src=\"./images/scort-big.png\" alt=\"\">",
+			"td",
+			"th",
+			"<td>",
+			"<div class=\"",
+			"<div class=\"col-md-6\">",
+			"11px",
+			"escort-",
+			"12px",
+			"30px",
+			"span",
+			"280px",
+			"simple",
+			"10px",
+			"330px",
+			"div",
+			"200px",
+			"</div>",
+			"display",
+			"href=\"#\"",
+			"category",
+			"\"#\"",
+			"title",
+			"<div class=\"col-md-12\">",
+			"Updates",
+			"<div class=\"row\">",
+			"width: ",
+			"width: 25%;",
+			"escort-middle",
+			"200px",
+			"100px",
+			"layout",
+			"background",
+			"app.equalize.layout",
+			"gallery",
+			"init",
+			"strnong",
+			"0.3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"extends ../layouts/default",
+			"Desplázate a través de la imagen utilizando tu mouse.",
+			"+menu_authorities()",
+			"Modelo formativo",
+			"section.section.section-introduce.not-menu-float",
+			"section.section.",
+			"section.section",
+			"#console.log",
+			"//console.log",
+			"primary_color",
+			"href=\"${ site_url }\"",
+			"decision",
+			"section-",
+			"http://picton.digitalmeat-dev.com/",
+			"http://picton.digitalmeat-dev.com",
+			"http://www.educandojuntos.cl",
+			"http://localhost/educando-juntos/wp",
+			"http://localhost/educando-juntos",
+			"zongshen",
+			"concesionario",
+			"consecionario",
+			"kymco-introduce-title.jpg",
+			"#464646"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								644,
+								644
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/MEATDEV/Developer/jquery-shares/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1603,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/MEATDEV/Developer/jquery-shares/webpack.mix.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								621
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 56,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								4054
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/MEATDEV/Developer/jquery-shares/public/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								755,
+								755
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/MEATDEV/Developer/jquery-shares/resources/sample/sass/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/MEATDEV/Developer/jquery-shares/public/assets/css/sample.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 685778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "resources/sample/sass/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/MEATDEV/Developer/jquery-shares/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/MEATDEV/Developer/jquery-shares/bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/MEATDEV/Developer/jquery-shares/resources/sample/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/MEATDEV/Developer/jquery-shares/resources/plugin/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1312,
+								1312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "resources/sample/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-pull":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "jquery-formulator.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pac",
+				"es/package.json"
+			],
+			[
+				"mobi",
+				"workshop/jade/partials/mobile-menu.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 431.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
