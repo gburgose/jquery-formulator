@@ -1,4 +1,4 @@
-# jQuery Formulator v1.0.2
+# jQuery Formulator
 
 ## Installation
 
@@ -40,6 +40,12 @@ You must add the class .form-validate
 	...
 	<input type="text" name="firstname">
 </form>
+```
+
+Add this to show form errors
+
+```html
+<div class="form-errors"></div>
 ```
 
 ##### Ajax

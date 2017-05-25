@@ -52,21 +52,23 @@
 										<div class="form-group">
 											<label for="exampleSelect1">Cities</label>
 											<select class="form-control" name="filter_cities" id="filter_cities">
-												<option>1</option>
-												<option>2</option>
-												<option>3</option>
-												<option>4</option>
-												<option>5</option>
+												<option value="">Select one</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="3">4</option>
+												<option value="5">5</option>
 											</select>
 										</div>
 										<div class="form-group">
 											<label for="exampleSelect1">Code</label>
 											<select class="form-control" name="filter_code" id="filter_code">
-												<option>1</option>
-												<option>2</option>
-												<option>3</option>
-												<option>4</option>
-												<option>5</option>
+												<option value="">Select one</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="3">4</option>
+												<option value="5">5</option>
 											</select>
 										</div>
 									</form>
@@ -93,11 +95,12 @@
 										<div class="form-group">
 											<label for="exampleSelect1">Example select</label>
 											<select class="form-control" name="exampleSelect1" id="exampleSelect1">
-												<option>1</option>
-												<option>2</option>
-												<option>3</option>
-												<option>4</option>
-												<option>5</option>
+												<option value="">Select one</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="3">4</option>
+												<option value="5">5</option>
 											</select>
 										</div>
 										<div class="form-errors"></div>
@@ -126,11 +129,12 @@
 										<div class="form-group">
 											<label for="exampleSelect1">Example select</label>
 											<select class="form-control" name="exampleSelect1" id="exampleSelect1">
-												<option>1</option>
-												<option>2</option>
-												<option>3</option>
-												<option>4</option>
-												<option>5</option>
+												<option value="">Select one</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="3">4</option>
+												<option value="5">5</option>
 											</select>
 										</div>
 										<button type="submit" class="btn btn-primary">Submit</button>
@@ -159,11 +163,12 @@
 										<div class="form-group">
 											<label for="exampleSelect1">Example select</label>
 											<select class="form-control" name="exampleSelect1" id="exampleSelect1">
-												<option>1</option>
-												<option>2</option>
-												<option>3</option>
-												<option>4</option>
-												<option>5</option>
+												<option value="">Select one</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="3">4</option>
+												<option value="5">5</option>
 											</select>
 										</div>
 										<div class="form-errors"></div>

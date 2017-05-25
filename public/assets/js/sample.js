@@ -10888,162 +10888,173 @@ $(document).ready(function () {
 
 /* WEBPACK VAR INJECTION */(function(jQuery) {(function ($) {
 
-	'use strict';
+  'use strict';
 
-	$.fn.formulator = function (options) {
+  $.fn.formulator = function (options) {
 
-		var settings = $.extend({
-			//callback : function(data, textStatus, jqXHR){}
-		}, options);
+    var settings = $.extend({
+      //callback : function(data, textStatus, jqXHR){}
+    }, options);
 
-		var constructor = function constructor($form) {
+    var constructor = function constructor($form) {
 
-			var $fields = $form.find('input, select, textarea');
-			var $submit = $form.find('button[type="submit"], submit');
+      var $fields = $form.find('input, select, textarea');
+      var $submit = $form.find('button[type="submit"], submit');
 
-			var formDisabled = function formDisabled() {
-				$submit.prop('disabled', true);
-				$fields.change(function () {
-					$submit.prop('disabled', false);
-				});
-			};
+      var formDisabled = function formDisabled() {
 
-			// Validate Form
+        $submit.prop('disabled', true);
 
-			var formValidate = function formValidate() {
+        $fields.change(function () {
+          $submit.prop('disabled', false);
+        });
 
-				if ($form.hasClass('form-validate') && !$form.hasClass('form-validate-load')) {
+        $fields.each(function (index) {
+          if ($(this).val() !== "") {
+            $submit.prop('disabled', false);
+          }
+        });
 
-					$form.addClass('form-validate-load');
+        $fields.bind('keypress', function () {
+          $(this).prop('disabled', false);
+          $submit.prop('disabled', false);
+        });
+      };
 
-					$fields.each(function (i, e) {
-						if (!$(e).hasClass('not-required')) {
-							$(e).prop('required', true);
-						}
-					});
+      // Validate Form
 
-					var $errors = $form.find('.form-errors');
-					$errors.html('<ul></ul>');
+      var formValidate = function formValidate() {
 
-					$form.validate({
-						'errorContainer': $errors,
-						'errorLabelContainer': $('ul', $errors),
-						'wrapper': 'li',
-						'invalidHandler': function invalidHandler(form, validator) {
-							var errors;
-							return errors = validator.numberOfInvalids();
-						},
-						'submitHandler': function submitHandler(form) {
-							return true;
-						}
-					});
-				}
-			};
+        if ($form.hasClass('form-validate') && !$form.hasClass('form-validate-load')) {
 
-			// Ajax Form
+          $form.addClass('form-validate-load');
 
-			var formAjax = function formAjax() {
+          $fields.each(function (i, e) {
+            if (!$(e).hasClass('not-required')) {
+              $(e).prop('required', true);
+            }
+          });
 
-				if ($form.hasClass('form-ajax') && !$form.hasClass('form-ajax-load')) {
+          var $errors = $form.find('.form-errors');
+          $errors.html('<ul></ul>');
 
-					$form.addClass('form-ajax-load');
+          $form.validate({
+            'errorContainer': $errors,
+            'errorLabelContainer': $('ul', $errors),
+            'wrapper': 'li',
+            'invalidHandler': function invalidHandler(form, validator) {
+              var errors;
+              return errors = validator.numberOfInvalids();
+            },
+            'submitHandler': function submitHandler(form) {
+              return true;
+            }
+          });
+        }
+      };
 
-					$submit = $form.find('[type="submit"]');
-					$submit.prop('disabled', true);
+      // Ajax Form
 
-					options = {
-						dataType: 'JSON',
-						success: function success(data, textStatus, jqXHR) {
+      var formAjax = function formAjax() {
 
-							var _title = '';
-							var _text = '';
-							var _type = 'error';
-							var _button = '';
+        if ($form.hasClass('form-ajax') && !$form.hasClass('form-ajax-load')) {
 
-							swal({
-								title: data.message.title,
-								text: data.message.text,
-								type: data.message.type,
-								confirmButtonText: data.message.button
-							});
+          $form.addClass('form-ajax-load');
 
-							alert(data.success);
+          $submit = $form.find('[type="submit"]');
+          $submit.prop('disabled', true);
 
-							if (data.success == true) {
-								$form[0].reset();
-							}
-						},
-						complete: function complete() {
-							return $submit.prop('disabled', false);
-						}
-					};
+          options = {
+            dataType: 'JSON',
+            success: function success(data, textStatus, jqXHR) {
 
-					return $form.ajaxForm(options);
-				}
-			};
+              var _title = '';
+              var _text = '';
+              var _type = 'error';
+              var _button = '';
 
-			var formReload = function formReload() {
+              swal({
+                title: data.message.title,
+                text: data.message.text,
+                type: data.message.type,
+                confirmButtonText: data.message.button
+              });
 
-				if ($form.hasClass('form-reload') && !$form.hasClass('form-reload-load')) {
+              if (data.success == true) {
+                $form[0].reset();
+              }
+            },
+            complete: function complete() {
+              return $submit.prop('disabled', false);
+            }
+          };
 
-					$form.addClass('form-reload-load');
+          return $form.ajaxForm(options);
+        }
+      };
 
-					// On init
+      var formReload = function formReload() {
 
-					$fields.prop('disabled', true);
+        if ($form.hasClass('form-reload') && !$form.hasClass('form-reload-load')) {
 
-					$fields.each(function (i, e) {
-						var _name = $(e).attr('name');
-						var _queries = _queryString();
-						$(e).val(_queries[_name]);
-						$(e).prop('disabled', false);
-					});
+          $form.addClass('form-reload-load');
 
-					// On change
+          // On init
 
-					$fields.change(function () {
-						$form.submit();
-					});
-				}
-			};
+          $fields.prop('disabled', true);
 
-			// Get url var
-			// This function is anonymous, is executed immediately and 
-			// the return value is assigned to QueryString!
+          $fields.each(function (i, e) {
+            var _name = $(e).attr('name');
+            var _queries = _queryString();
+            $(e).val(_queries[_name]);
+            $(e).prop('disabled', false);
+          });
 
-			var _queryString = function _queryString() {
+          // On change
 
-				var query_string = {};
-				var query = window.location.search.substring(1);
-				var vars = query.split("&");
-				for (var i = 0; i < vars.length; i++) {
-					var pair = vars[i].split("=");
-					// If first entry with this name
-					if (typeof query_string[pair[0]] === "undefined") {
-						query_string[pair[0]] = decodeURIComponent(pair[1]);
-						// If second entry with this name
-					} else if (typeof query_string[pair[0]] === "string") {
-						var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];
-						query_string[pair[0]] = arr;
-						// If third or later entry with this name
-					} else {
-						query_string[pair[0]].push(decodeURIComponent(pair[1]));
-					}
-				}
-				return query_string;
-			};
+          $fields.change(function () {
+            $form.submit();
+          });
+        }
+      };
 
-			// Init
-			formDisabled();
-			formValidate();
-			formAjax();
-			formReload();
-		};
+      // Get url var
+      // This function is anonymous, is executed immediately and 
+      // the return value is assigned to QueryString!
 
-		return this.each(function () {
-			constructor($(this));
-		});
-	};
+      var _queryString = function _queryString() {
+
+        var query_string = {};
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split("=");
+          // If first entry with this name
+          if (typeof query_string[pair[0]] === "undefined") {
+            query_string[pair[0]] = decodeURIComponent(pair[1]);
+            // If second entry with this name
+          } else if (typeof query_string[pair[0]] === "string") {
+            var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];
+            query_string[pair[0]] = arr;
+            // If third or later entry with this name
+          } else {
+            query_string[pair[0]].push(decodeURIComponent(pair[1]));
+          }
+        }
+        return query_string;
+      };
+
+      // Init
+      formValidate();
+      formAjax();
+      formDisabled();
+      formReload();
+    };
+
+    return this.each(function () {
+      constructor($(this));
+    });
+  };
 })(jQuery);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
