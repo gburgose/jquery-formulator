@@ -10916,7 +10916,6 @@ $(document).ready(function () {
         });
 
         $fields.bind('keypress', function () {
-          $(this).prop('disabled', false);
           $submit.prop('disabled', false);
         });
       };

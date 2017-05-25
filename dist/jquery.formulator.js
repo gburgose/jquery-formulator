@@ -11,6 +11,14 @@
         $fields.change(function() {
           $submit.prop('disabled', false);
         });
+        $fields.each(function(index) {
+          if ($(this).val() !== "") {
+            $submit.prop('disabled', false);
+          }
+        });
+        $fields.bind('keypress', function() {
+          $submit.prop('disabled', false);
+        });
       }
       var formValidate = function() {
         if ($form.hasClass('form-validate') && !$form.hasClass('form-validate-load')) {
@@ -44,16 +52,19 @@
           options = {
             dataType: 'JSON',
             success: function(data, textStatus, jqXHR) {
-              var _title = 'Falta título';
-              var _text = 'Falta texto';
-              var _type = 'Falta tipo';
-              var _button = 'Falta botón';
+              var _title = '';
+              var _text = '';
+              var _type = 'error';
+              var _button = '';
               swal({
-                title: data.title,
-                text: data.text,
-                type: data.type,
-                confirmButtonText: data.button
+                title: data.message.title,
+                text: data.message.text,
+                type: data.message.type,
+                confirmButtonText: data.message.button
               });
+              if (data.success == true) {
+                $form[0].reset();
+              }
             },
             complete: function() {
               return $submit.prop('disabled', false);
@@ -94,9 +105,9 @@
         }
         return query_string;
       }
-      formDisabled();
       formValidate();
       formAjax();
+      formDisabled();
       formReload();
     }
     return this.each(function() {
