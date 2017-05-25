@@ -15,6 +15,12 @@
 npm install jquery-formulator --save-dev
 ```
 
+#### Install plugin and all dependencies
+
+```bash
+npm install jquery-formulator jquery-validation@1.16.0 jquery-form@4.2.0 jquery.rut@1.1.2 sweetalert@1.1.3 --save-dev
+```
+
 #### Webpack
 
 ```js
