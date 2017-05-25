@@ -69,23 +69,23 @@
 						dataType: 'JSON',
 						success: function(data, textStatus, jqXHR) {
 
-							var _title   = 'Falta título';
-							var _text    = 'Falta texto';
-							var _type    = 'Falta tipo';
-							var _button  = 'Falta botón';
+							var _title   = '';
+							var _text    = '';
+							var _type    = 'error';
+							var _button  = '';
 
 							swal({
-								title             : data.title,
-								text              : data.text,
-								type              : data.type,
-								confirmButtonText : data.button
+								title             : data.message.title,
+								text              : data.message.text,
+								type              : data.message.type,
+								confirmButtonText : data.message.button
 							});
 
-							/*
-							if (typeof settings.callback == 'function') { 
-					      settings.callback.call(data);
-					    }
-					    */
+							alert(data.success);
+
+							if ( data.success == true ){
+								$form[0].reset();
+							}
 
 						},
 						complete: function() {

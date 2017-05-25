@@ -8,143 +8,177 @@
 	<script src="./assets/js/sample.js"></script>
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div id="formulator">
-				<div class="formulator-container">
-				
+
+	<div class="section section-introduce">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
 					<h1>jQuery Formulator</h1>
-
-					<div class="example">
-						<!-- both --> 
-						<h3>Filter Reload</h3>
-						<form id="form_3" class="form-reload">
-							<div class="form-group">
-								<label for="exampleSelect1">Countries</label>
-								<select class="form-control" name="filter_countries" id="filter_countries">
-									<option value="">Seleccione</option>
-									<option value="chile">Chile</option>
-									<option value="argentina">Argentina</option>
-								</select>
-							</div>
-							<div class="form-group">
-								<label for="exampleSelect1">Cities</label>
-								<select class="form-control" name="filter_cities" id="filter_cities">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-							<div class="form-group">
-								<label for="exampleSelect1">Code</label>
-								<select class="form-control" name="filter_code" id="filter_code">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-						</form>
-					<!-- // both -->
-
-<!-- pre -->
-<pre class="prettyprint lang-css"><form id="form_3" class="form-reload"></form></pre>
-<!-- //pre -->	
-
-					</div>
-
-					<div class="example">
-						<!-- validation --> 
-						<h3>Only validation</h3>
-						<form id="form_1" class="form-validate">
-							<div class="form-group">
-								<label for="exampleInputEmail1">Email address</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-							</div>
-							<div class="form-group">
-								<label for="exampleInputPassword1">Password</label>
-								<input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1" placeholder="Password">
-							</div>
-							<div class="form-group">
-								<label for="exampleSelect1">Example select</label>
-								<select class="form-control" name="exampleSelect1" id="exampleSelect1">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-							<div class="form-errors"></div>
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</form>
-						<!-- // validation --> 
-					</div>
-
-					<div class="example">
-					<!-- ajax --> 
-						<h3>Only Ajax</h3>
-						<form id="form_2" class="form-ajax" action="./callback.json">
-							<div class="form-group">
-								<label for="exampleInputEmail1">Email address</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-							</div>
-							<div class="form-group">
-								<label for="exampleInputPassword1">Password</label>
-								<input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1" placeholder="Password">
-							</div>
-							<div class="form-group">
-								<label for="exampleSelect1">Example select</label>
-								<select class="form-control" name="exampleSelect1" id="exampleSelect1">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</form>
-						<!-- // ajax -->
-					</div>
-
-					<div class="example">
-						<!-- both --> 
-						<h3>Validation & Ajax</h3>
-						<form id="form_3" class="form-validate form-ajax" action="./callback.json">
-							<div class="form-group">
-								<label for="exampleInputEmail1">Email address</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-							</div>
-							<div class="form-group">
-								<label for="exampleInputPassword1">Password</label>
-								<input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1" placeholder="Password">
-							</div>
-							<div class="form-group">
-								<label for="exampleSelect1">Example select</label>
-								<select class="form-control" name="exampleSelect1" id="exampleSelect1">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-							<div class="form-errors"></div>
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</form>
-					<!-- // both -->
-					</div>
-
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<div class="section section-examples">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+
+					<h3>Examples</h3>
+					
+					<ul class="nav nav-tabs">
+					  <li class="active"><a data-toggle="tab" href="#filer">Filter Reload</a></li>
+					  <li><a data-toggle="tab" href="#validation">Only validation</a></li>
+					  <li><a data-toggle="tab" href="#ajax">Only Ajax</a></li>
+					  <li><a data-toggle="tab" href="#both">Validation & Ajax</a></li>
+					</ul>
+
+					<div class="tab-content">
+
+						<!-- filter -->
+						<div id="filer" class="example tab-pane active">
+							<div class="row">
+								<div class="col-lg-5">
+									<!-- filter --> 
+									<form id="form_3" class="form-reload">
+										<div class="form-group">
+											<label for="exampleSelect1">Countries</label>
+											<select class="form-control" name="filter_countries" id="filter_countries">
+												<option value="">Seleccione</option>
+												<option value="chile">Chile</option>
+												<option value="argentina">Argentina</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="exampleSelect1">Cities</label>
+											<select class="form-control" name="filter_cities" id="filter_cities">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="exampleSelect1">Code</label>
+											<select class="form-control" name="filter_code" id="filter_code">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+									</form>
+									<!-- //filter --> 
+								</div>
+							</div>
+						</div>
+
+						<!-- validation -->
+						<div id="validation" class="example tab-pane">
+							<div class="row">
+								<div class="col-lg-5">
+									<!-- validation --> 
+									<form id="form_1" class="form-validate">
+										<div class="form-group">
+											<label for="exampleInputEmail1">Email address</label>
+											<input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+											<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+										</div>
+										<div class="form-group">
+											<label for="exampleInputPassword1">Password</label>
+											<input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<label for="exampleSelect1">Example select</label>
+											<select class="form-control" name="exampleSelect1" id="exampleSelect1">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+										<div class="form-errors"></div>
+										<button type="submit" class="btn btn-primary">Submit</button>
+									</form>
+									<!-- // validation --> 
+								</div>
+							</div>
+						</div>
+
+						<!-- ajax --> 
+						<div id="ajax" class="example tab-pane">
+							<div class="row">
+								<div class="col-lg-5">
+									<!-- ajax --> 
+									<form id="form_2" class="form-ajax" action="./callback.json">
+										<div class="form-group">
+											<label for="exampleInputEmail1">Email address</label>
+											<input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+											<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+										</div>
+										<div class="form-group">
+											<label for="exampleInputPassword1">Password</label>
+											<input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<label for="exampleSelect1">Example select</label>
+											<select class="form-control" name="exampleSelect1" id="exampleSelect1">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+										<button type="submit" class="btn btn-primary">Submit</button>
+									</form>
+									<!-- // ajax -->
+								</div>
+							</div>
+						</div>
+
+						<!-- both --> 
+
+						<div id="both" class="example tab-pane">
+							<div class="row">
+								<div class="col-lg-5">
+									<!-- both --> 
+									<form id="form_3" class="form-validate form-ajax" action="./callback.json">
+										<div class="form-group">
+											<label for="exampleInputEmail1">Email address</label>
+											<input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+											<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+										</div>
+										<div class="form-group">
+											<label for="exampleInputPassword1">Password</label>
+											<input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<label for="exampleSelect1">Example select</label>
+											<select class="form-control" name="exampleSelect1" id="exampleSelect1">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+										<div class="form-errors"></div>
+										<button type="submit" class="btn btn-primary">Submit</button>
+									</form>
+									<!-- // both -->
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>

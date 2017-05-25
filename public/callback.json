@@ -1,6 +1,9 @@
 {
-  "title" : "Ajax request example",
-  "text"  : "Submit to run ajax request",
-  "type"  : "info",
-  "button" : "Aceptar"
+  "success" : true,
+  "message" : {
+    "title"   : "Ajax request example",
+    "text"    : "Submit to run ajax request",
+    "type"    : "info",
+    "button"  : "Aceptar"
+  }
 }

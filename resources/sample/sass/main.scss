@@ -9,7 +9,31 @@
 
 
 body{
-	padding: 80px 0;
+	padding: 0;
+}
+
+.section{
+
+	padding: 50px 0;
+
+	&.section-introduce{
+		background-color: #333;
+		h1{
+			color: white;
+			//margin: 30px 0;
+		}
+	}
+
+	&.section-examples{
+		h3{
+			margin: 0;
+			margin-bottom: 30px;
+		}
+		.tab-pane{
+			padding-top: 30px;
+		}
+	}
+
 }
 
 #formulator{
@@ -20,7 +44,7 @@ body{
 
 		display: inline-block;
 		width:  100%;
-		max-width: 650px;
+		//max-width: 650px;
 		text-align: left;
 
 		h1{
