@@ -154,7 +154,7 @@
 
           // Create Script
 
-          var _url = "https://www.google.com/recaptcha/api.js";
+          var _url = "//www.google.com/recaptcha/api.js";
 
           var script = document.createElement('script');
           script.type = 'text/javascript';
@@ -162,6 +162,7 @@
           script.id = 'google-recaptcha';
           script.async = true;
           script.defer = true;
+          script.render = "explicit";
           document.body.appendChild(script);
 
 
