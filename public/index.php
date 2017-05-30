@@ -31,6 +31,7 @@
 					  <li><a data-toggle="tab" href="#validation">Only validation</a></li>
 					  <li><a data-toggle="tab" href="#ajax">Only Ajax</a></li>
 					  <li><a data-toggle="tab" href="#both">Validation & Ajax</a></li>
+					  <li><a data-toggle="tab" href="#recaptcha">Google Recaptcha</a></li>
 					</ul>
 
 					<div class="tab-content">
@@ -178,6 +179,41 @@
 								</div>
 							</div>
 						</div>
+
+						<!-- Recaptcha -->
+
+						<div id="recaptcha" class="example tab-pane">
+							<div class="row">
+								<div class="col-lg-5">
+									<form id="form_3" class="form-validate form-ajax form-recaptcha" action="./callback.json">
+										<div class="form-group">
+											<label for="exampleInputEmail1">Email address</label>
+											<input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+											<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+										</div>
+										<div class="form-group">
+											<label for="exampleInputPassword1">Password</label>
+											<input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<label for="exampleSelect1">Example select</label>
+											<select class="form-control" name="exampleSelect1" id="exampleSelect1">
+												<option value="">Select one</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="3">4</option>
+												<option value="5">5</option>
+											</select>
+										</div>
+										<div class="form-errors"></div>
+										<button type="submit" class="btn btn-primary">Submit</button>
+									</form>
+								</div>
+							</div>
+						</div>
+
+						<!-- Recaptcha -->
 
 					</div>
 				</div>

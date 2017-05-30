@@ -51,14 +51,15 @@
           $errors.html('<ul></ul>');
 
           $form.validate({
-              'errorContainer': $errors,
-              'errorLabelContainer': $('ul', $errors),
-              'wrapper': 'li',
-              'invalidHandler': function(form, validator) {
+              ignore: ".ignore",
+              errorContainer: $errors,
+              errorLabelContainer: $("ul", $errors),
+              wrapper: "li",
+              invalidHandler: function(form, validator) {
                 var errors;
                 return errors = validator.numberOfInvalids();
               },
-              'submitHandler': function(form) {
+              submitHandler: function(form) {
                 return true;
               }
           });
@@ -137,6 +138,37 @@
 
       }
 
+      var formReCaptcha = function(){
+
+        if ( $form.hasClass('form-recaptcha') && !$form.hasClass('form-recaptcha-load') ){
+
+          $form.addClass('form-recaptcha-load');
+
+          // Create captcha
+
+          var captcha = document.createElement('div');
+          $(captcha).attr("data-sitekey","6LdmQyMUAAAAALUF-R2vXHw6Htm-O6TDsjq79mjT")
+                    .attr('data-size','invisible')
+                    .addClass("g-recaptcha");
+          $form.append( $(captcha) );
+
+          // Create Script
+
+          var _url = "https://www.google.com/recaptcha/api.js";
+
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = _url;
+          script.id = 'google-recaptcha';
+          script.async = true;
+          script.defer = true;
+          document.body.appendChild(script);
+
+
+        }
+
+      }
+
       // Get url var
       // This function is anonymous, is executed immediately and 
       // the return value is assigned to QueryString!
@@ -168,6 +200,7 @@
       formAjax();
       formDisabled();
       formReload();
+      formReCaptcha();
 
     }
 
